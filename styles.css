@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(187, 4, 187);
+    text-align: center;
+}
+
+#home {
+    background-image: url('bg1.jpg'); 
+}
+
+#experience {
+    background-image: url('bg1.jpg'); 
+}
+
+#skills {
+    background-image: url('bg1.jpg'); 
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.content-section {
+    padding: 50px 20px;
+    background-color:whitesmoke;
+}
+
+#about {
+    background-color: whitesmoke;
+    
+}
+
+#education {
+    background-color: whitesmoke;
+    
+}
+
+#contact {
+    background-color: whitesmoke;
+ 
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(187, 4, 187)
+    
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(248, 41, 248);
+}
+
+ul {
+    text-align: center;
+    color: rgb(248, 41, 248);
+}
